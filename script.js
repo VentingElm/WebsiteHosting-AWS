@@ -2,7 +2,7 @@ let weather = {
   apiKey: "//Add API Key here",
   fetchWeather: function (city) {
     // Replace the OpenWeatherMap API URL with the API Gateway endpoint URL(API gateway endpoints from AWS(HTTP-API)
-    fetch(`https://f2971el4de.execute-api.us-east-1.amazonaws.com/prod/weather?city=${city}&apiKey=${this.apiKey}`)
+    fetch(`https://"API gateway"?city=${city}&apiKey=${this.apiKey}`)
       .then((response) => {
         if (!response.ok) {
           alert("No weather found.");
