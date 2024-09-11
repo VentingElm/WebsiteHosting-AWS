@@ -10,4 +10,4 @@ Weather forecast of Tampa:
 ![image](https://github.com/VentingElm/WebsiteHosting-AWS/assets/105898424/94a803d0-5580-487d-b28e-208849a41d02)
 
 
-New note: Unsplash does not work currently so it has been changed to "PicSum photos"
+New note: source.unsplash does not work currently so background images are now taken from "PicSum photos", an open-source alternative to source.unsplash
